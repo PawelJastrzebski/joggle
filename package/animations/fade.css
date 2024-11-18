@@ -1,0 +1,34 @@
+[data-joggle][data-joggle^=fade][data-joggle^=fade] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: var(--joggle-duration);
+  transition-delay: var(--joggle-delay);
+}
+[data-joggle][data-joggle^=fade][data-joggle^=fade].joggle-animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+[data-joggle][data-joggle=fade-up] {
+  transform: translate3d(0, var(--joggle-offset), 0);
+}
+[data-joggle][data-joggle=fade-down] {
+  transform: translate3d(0, var(--joggle-offset-minus), 0);
+}
+[data-joggle][data-joggle=fade-right] {
+  transform: translate3d(var(--joggle-offset-minus), 0, 0);
+}
+[data-joggle][data-joggle=fade-left] {
+  transform: translate3d(var(--joggle-offset), 0, 0);
+}
+[data-joggle][data-joggle=fade-up-right] {
+  transform: translate3d(var(--joggle-offset-minus), var(--joggle-offset), 0);
+}
+[data-joggle][data-joggle=fade-up-left] {
+  transform: translate3d(var(--joggle-offset), var(--joggle-offset), 0);
+}
+[data-joggle][data-joggle=fade-down-right] {
+  transform: translate3d(var(--joggle-offset-minus), var(--joggle-offset-minus), 0);
+}
+[data-joggle][data-joggle=fade-down-left] {
+  transform: translate3d(var(--joggle-offset), var(--joggle-offset-minus), 0);
+}

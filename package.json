@@ -1,0 +1,22 @@
+{
+  "name": "joggle",
+  "version": "0.0.0-alpha.1",
+  "provate": true,
+  "description": "Animate on scroll",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "cd ./package && npx tsup",
+    "build:css": "npx sass ./src_animations/:./package/animations/ --no-source-map",
+    "publish:npm": "npm publish ./package",
+    "publish:npm:test": "npm publish ./package --dry-run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "joggle",
+  "version": "1.0.0-alpha.1",
+  "description": "Animate on scroll",
+  "type": "module",
+  "main": "dist/joggle.cjs",
+  "module": "dist/joggle.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawelJastrzebski/joggle.git"
+  },
+  "keywords": [
+    "aos",
+    "animation",
+    "scroll",
+    "in-view"
+  ],
+  "author": "Paweł Jastrzębski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PawelJastrzebski/joggle/issues"
+  },
+  "homepage": "https://github.com/PawelJastrzebski/joggle/tree/main/package"
+}

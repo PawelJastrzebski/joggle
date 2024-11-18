@@ -1,0 +1,28 @@
+[data-joggle] {
+    --joggle-delay: 100ms;
+    --joggle-duration: 600ms;
+    --joggle-offset: 100px;
+    --joggle-offset-minus: calc(var(--joggle-offset) * -1);
+}
+
+@for $i from 1 through 20 {
+
+    [data-joggle-delay='#{$i * 50}'] {
+        --joggle-delay: #{$i * 50}ms;
+    }
+
+    [data-joggle-duration='#{$i * 50}'] {
+        --joggle-duration: #{$i * 50}ms;
+    }
+
+}
+
+@for $i from 0 through 10 {
+
+   [data-joggle-offset='#{$i * 50}'] {
+        --joggle-offset: #{$i * 50}px;
+    }
+    
+}
+
+

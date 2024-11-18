@@ -1,0 +1,210 @@
+[data-joggle] {
+  --joggle-delay: 100ms;
+  --joggle-duration: 600ms;
+  --joggle-offset: 100px;
+  --joggle-offset-minus: calc(var(--joggle-offset) * -1);
+}
+
+[data-joggle-delay="50"] {
+  --joggle-delay: 50ms;
+}
+
+[data-joggle-duration="50"] {
+  --joggle-duration: 50ms;
+}
+
+[data-joggle-delay="100"] {
+  --joggle-delay: 100ms;
+}
+
+[data-joggle-duration="100"] {
+  --joggle-duration: 100ms;
+}
+
+[data-joggle-delay="150"] {
+  --joggle-delay: 150ms;
+}
+
+[data-joggle-duration="150"] {
+  --joggle-duration: 150ms;
+}
+
+[data-joggle-delay="200"] {
+  --joggle-delay: 200ms;
+}
+
+[data-joggle-duration="200"] {
+  --joggle-duration: 200ms;
+}
+
+[data-joggle-delay="250"] {
+  --joggle-delay: 250ms;
+}
+
+[data-joggle-duration="250"] {
+  --joggle-duration: 250ms;
+}
+
+[data-joggle-delay="300"] {
+  --joggle-delay: 300ms;
+}
+
+[data-joggle-duration="300"] {
+  --joggle-duration: 300ms;
+}
+
+[data-joggle-delay="350"] {
+  --joggle-delay: 350ms;
+}
+
+[data-joggle-duration="350"] {
+  --joggle-duration: 350ms;
+}
+
+[data-joggle-delay="400"] {
+  --joggle-delay: 400ms;
+}
+
+[data-joggle-duration="400"] {
+  --joggle-duration: 400ms;
+}
+
+[data-joggle-delay="450"] {
+  --joggle-delay: 450ms;
+}
+
+[data-joggle-duration="450"] {
+  --joggle-duration: 450ms;
+}
+
+[data-joggle-delay="500"] {
+  --joggle-delay: 500ms;
+}
+
+[data-joggle-duration="500"] {
+  --joggle-duration: 500ms;
+}
+
+[data-joggle-delay="550"] {
+  --joggle-delay: 550ms;
+}
+
+[data-joggle-duration="550"] {
+  --joggle-duration: 550ms;
+}
+
+[data-joggle-delay="600"] {
+  --joggle-delay: 600ms;
+}
+
+[data-joggle-duration="600"] {
+  --joggle-duration: 600ms;
+}
+
+[data-joggle-delay="650"] {
+  --joggle-delay: 650ms;
+}
+
+[data-joggle-duration="650"] {
+  --joggle-duration: 650ms;
+}
+
+[data-joggle-delay="700"] {
+  --joggle-delay: 700ms;
+}
+
+[data-joggle-duration="700"] {
+  --joggle-duration: 700ms;
+}
+
+[data-joggle-delay="750"] {
+  --joggle-delay: 750ms;
+}
+
+[data-joggle-duration="750"] {
+  --joggle-duration: 750ms;
+}
+
+[data-joggle-delay="800"] {
+  --joggle-delay: 800ms;
+}
+
+[data-joggle-duration="800"] {
+  --joggle-duration: 800ms;
+}
+
+[data-joggle-delay="850"] {
+  --joggle-delay: 850ms;
+}
+
+[data-joggle-duration="850"] {
+  --joggle-duration: 850ms;
+}
+
+[data-joggle-delay="900"] {
+  --joggle-delay: 900ms;
+}
+
+[data-joggle-duration="900"] {
+  --joggle-duration: 900ms;
+}
+
+[data-joggle-delay="950"] {
+  --joggle-delay: 950ms;
+}
+
+[data-joggle-duration="950"] {
+  --joggle-duration: 950ms;
+}
+
+[data-joggle-delay="1000"] {
+  --joggle-delay: 1000ms;
+}
+
+[data-joggle-duration="1000"] {
+  --joggle-duration: 1000ms;
+}
+
+[data-joggle-offset="0"] {
+  --joggle-offset: 0px;
+}
+
+[data-joggle-offset="50"] {
+  --joggle-offset: 50px;
+}
+
+[data-joggle-offset="100"] {
+  --joggle-offset: 100px;
+}
+
+[data-joggle-offset="150"] {
+  --joggle-offset: 150px;
+}
+
+[data-joggle-offset="200"] {
+  --joggle-offset: 200px;
+}
+
+[data-joggle-offset="250"] {
+  --joggle-offset: 250px;
+}
+
+[data-joggle-offset="300"] {
+  --joggle-offset: 300px;
+}
+
+[data-joggle-offset="350"] {
+  --joggle-offset: 350px;
+}
+
+[data-joggle-offset="400"] {
+  --joggle-offset: 400px;
+}
+
+[data-joggle-offset="450"] {
+  --joggle-offset: 450px;
+}
+
+[data-joggle-offset="500"] {
+  --joggle-offset: 500px;
+}

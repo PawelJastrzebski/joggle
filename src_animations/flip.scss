@@ -1,0 +1,42 @@
+[data-joggle] {
+
+    &[data-joggle^='flip'][data-joggle^='flip'] {
+        backface-visibility: hidden;
+        transition-property: transform;
+        transition-duration: var(--joggle-duration);
+        transition-delay: var(--joggle-delay);
+    }
+
+    &[data-joggle='flip-left'] {
+        transform: perspective(2500px) rotateY(-100deg);
+
+        &.joggle-animate {
+            transform: perspective(2500px) rotateY(0) !important;
+        }
+    }
+
+    &[data-joggle='flip-right'] {
+        transform: perspective(2500px) rotateY(100deg);
+
+        &.joggle-animate {
+            transform: perspective(2500px) rotateY(0);
+        }
+    }
+
+    &[data-joggle='flip-up'] {
+        transform: perspective(2500px) rotateX(-100deg);
+
+        &.joggle-animate {
+            transform: perspective(2500px) rotateX(0);
+        }
+    }
+
+    &[data-joggle='flip-down'] {
+        transform: perspective(2500px) rotateX(100deg);
+
+        &.joggle-animate {
+            transform: perspective(2500px) rotateX(0);
+        }
+    }
+
+}
